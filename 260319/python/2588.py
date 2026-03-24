@@ -1,7 +1,12 @@
 a = int(input())
 b = int(input())
 
-print(a * b % 10)
-print(a * (b % 100 // 10))
-print(a * (b // 100))
-print(a * b)
+step1 = a * (b % 10)         
+step2 = a * ((b // 10) % 10) 
+step3 = a * (b // 100)        
+final = a * b               
+
+print(step1)
+print(step2)
+print(step3)
+print(final)
