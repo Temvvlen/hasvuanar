@@ -3,7 +3,7 @@ a = input()
 if(a == 0):
     print("0")
 
-l = len(a)
+l = len(a) 
 start = ""
 output = []
 swi = 0
