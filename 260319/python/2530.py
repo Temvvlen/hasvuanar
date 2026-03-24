@@ -3,7 +3,7 @@ h = int(h)
 m = int(m)
 s = int(s)
 sum = int(input())
-
+ 
 h += sum // 3600
 sum %= 3600
 m += sum // 60
