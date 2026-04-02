@@ -3,7 +3,6 @@ from datetime import datetime
 
 def display_month_calendar():
     try:
-        # Automatically get the current year
         year = datetime.now().year
         
         month = int(input("Enter the month (1-12): "))
