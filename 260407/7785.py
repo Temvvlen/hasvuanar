@@ -4,7 +4,7 @@ member = set()
 
 for i in range(n):
     name, move = input().split()
-    if(move == "enter"):
+    if(move == "enter"): 
          member.add(name)
     else:
          member.discard(name)
