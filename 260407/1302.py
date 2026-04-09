@@ -2,7 +2,7 @@ n = int(input())
 
 cnt = {}
 mv = 0; ans = ""
-
+ 
 for i in range(n):
     a = input()
     if(a in cnt):
