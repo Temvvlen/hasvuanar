@@ -5,7 +5,7 @@ arr = set()
 
 for i in range(n):
     a = input()
-    arr.add(a)
+    arr.add(a) 
 
 output = []
 for j in range(m):
