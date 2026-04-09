@@ -4,7 +4,7 @@ n = int(n); m = int(m)
 dic = {}
 
 for i in range(m):
-    a = int(input())
+    a = int(input()) 
     dic[a] = i
 
 output = []
